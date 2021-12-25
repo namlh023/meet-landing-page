@@ -1,0 +1,60 @@
+:root {
+  --clr-button-1: hsl(192, 37%, 48%);
+  --clr-button-2: hsl(268, 34%, 53%);
+  --clr-heading: hsl(240, 21%, 20%);
+  --clr-text: hsl(240, 10%, 57%);
+  --clr-text-o: hsla(240, 10%, 57%, 0.25);
+  --clr-background: hsl(0, 0%, 98%);
+  --clr-button-text-1: hsl(192, 90%, 77%);
+  --clr-button-text-2: hsl(268, 100%, 86%);
+  --clr-white: #fff;
+
+  --ff-primary: "Red Hat Display", sans-serif;
+
+  --fs-h1: 2.5rem;
+  --fs-h2: 2rem;
+  --fs-text: 1rem;
+  --fs-overline: 1rem;
+  --fs-text-footer: 1.125rem;
+
+  --lh-h1: 2.75rem;
+  --lh-h2: 2.25rem;
+  --lh-text: 1.625rem;
+  --lh-overline: 1.625rem;
+
+  --fw-900: 900;
+  --fw-700: 700;
+  --fw-500: 500;
+
+  --ls-overline: 0.25rem;
+
+  --logo-width: 7.4375rem;
+
+  --space-xxs: 0.5rem;
+  --space-xs: 1rem;
+  --space-sm: 1.5rem;
+  --space-md: 2rem;
+  --space-md-2: 3rem;
+  --space-lg: 4rem;
+  --space-lg-2: 5rem;
+  --space-xl: 43vw;
+
+  @media (min-width: 48em) {
+    --fs-h1: 3rem;
+    --fs-h2: 2.5rem;
+
+    --lh-h1: 3rem;
+    --lh-h2: 2.75rem;
+  }
+
+  @media (min-width: 90em) {
+    --fs-h1: 4rem;
+    --fs-h2: 2.5rem;
+    --fs-text: 1.125rem;
+
+    --lh-h1: 4rem;
+    --lh-h2: 2.75rem;
+
+    --space-lg: 5rem;
+  }
+}
