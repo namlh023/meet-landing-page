@@ -28,20 +28,20 @@ body {
 }
 
 .btn {
-  display: block;
+  display: table;
   margin: 1em auto;
 
   color: var(--clr-white);
   font-weight: var(--fw-900);
 
-  padding: var(--space-xs) 0;
+  padding: var(--space-xs) var(--space-md);
   border-radius: var(--space-md);
 
   text-decoration: none;
   text-align: center;
 
   &--main {
-    width: 12rem;
+    // width: 12rem;
     background-color: var(--clr-button-1);
 
     &:hover {
@@ -50,7 +50,7 @@ body {
   }
 
   &--secondary {
-    width: 8.7rem;
+    // width: 8.7rem;
     background-color: var(--clr-button-2);
 
     &:hover {
