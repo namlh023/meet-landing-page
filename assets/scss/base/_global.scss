@@ -2,6 +2,10 @@
 @use "./font";
 @use "./root";
 
+/*-------------------
+      LAYOUT
+--------------------*/
+
 body {
   background-color: var(--clr-background);
   font-family: var(--ff-primary);
@@ -12,6 +16,10 @@ body {
 .container {
   margin: 0 var(--space-sm);
 }
+
+/*-------------------
+  COMMON COMPONENTS
+--------------------*/
 
 .p-like {
   color: var(--clr-text);
@@ -95,6 +103,10 @@ body {
     background-color: var(--clr-text-o);
   }
 }
+
+/*-------------------
+      COMPONENTS
+--------------------*/
 
 .header {
   width: var(--logo-width);
@@ -192,6 +204,10 @@ body {
     max-width: 50ch;
   }
 }
+
+/*-------------------
+    MEDIA QUERIES
+--------------------*/
 
 @media (min-width: 48em) {
   .btn {
